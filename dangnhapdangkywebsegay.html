@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập oOo Đăng ký</title>
+    <script src="dangnhapdangkywebsegay.js"></script>
+</head>
+
+
+
+<style>
+html
+{
+    cursor: url("https://i.imgur.com/IDvQQvK.png"), auto ;
+    background-color: #000000;
+}
+.hinhnen > video
+{
+	background-size: 100%;
+    position: fixed;
+    z-index: -5;
+    width: 100%;
+} 
+
+.LogIn
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    z-index: 1;
+}
+.Register
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    z-index: 0;
+}
+
+#IdLogIn
+{
+    font-family: Sans-serif;
+    background-color: #2697de;
+    color: #d52862;
+    width: 100%;
+    height: 300px;
+}
+#IdRegister
+{
+    background-color: #d52862;
+    color: #2697de;
+    width: 100%;
+    height: 300px;
+}
+</style>
+<body>
+	<div class="hinhnen">
+        <video playsinline autoplay muted loop poster="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1406990/0fa275e7aa6514e876d5c34482010e9e6c7051f3.jpg">
+            <source src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1406990/915b1b4a05133186525a956d7ca5c142a3c3c9f3.webm" type="video/webm">
+            <source src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1406990/f5e956f69e888392812e8ddcf4a5ef10dc03bad7.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="LogIn">
+        <form action="" method="post">
+            <table id="IdLogIn">
+                <tr>
+                    <th>Log In</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Account:
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Password:
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="" id="" value="Sign in">
+                        <a href="">Forgot your Password!</a>
+                        <a href="#" onclick="changtoRegister()">Dont have account?</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+    <div class="Register">
+        <form action="" method="post">
+            <table Id="IdRegister" hidden>
+                <tr>
+                    <th></th>
+                    <th>Register</th>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+
+
+</html>
